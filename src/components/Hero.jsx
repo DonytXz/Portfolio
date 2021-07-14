@@ -1,10 +1,12 @@
 import React from "react";
 import Title from "./Title";
+import Nav from "./Nav";
 
 const Hero = () => {
   return (
     <>
-      <div className="w-screen h-screen bg-black flex flex-col content-center justify-center">
+      <div className="w-full h-screen flex flex-col content-center justify-center">
+        <Nav />
         <Title />
       </div>
     </>

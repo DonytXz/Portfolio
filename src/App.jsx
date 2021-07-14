@@ -6,10 +6,12 @@ import About from "./components/About";
 const App = () => {
   return (
     <>
-      <div className="w-full h-full">
-        <Hero />
-        <About />
-        <Skills />
+      <div className="w-11/12 h-full mx-auto p-2 border-4 border-black my-3">
+        <div className="w-full h-full border-2 border-black p-6 ">
+          <Hero />
+          <About />
+          <Skills />
+        </div>
       </div>
     </>
   );

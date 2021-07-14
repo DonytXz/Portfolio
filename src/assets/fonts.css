@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'Chomsky';
+    src: local('Chomsky'), url(./fonts/Chomsky.otf) format('otf');
+  }
+  @font-face {
+    font-family: 'ChunkPrint';
+    src: local('ChunkPrint'), url(./fonts/ChunkPrint.otf) format('otf');
+  }
+  @font-face {
+    font-family: 'Chunk';
+    src: local('Chunk'), url(./fonts/Chunk.otf) format('otf');
+  }
+  .chomsky{
+    font-family: 'Chomsky';
+  }
+  .chunkPrint{
+    font-family: 'ChunkPrint';
+  }
+  .chunk{
+    font-family: 'Chunk';
+  }
