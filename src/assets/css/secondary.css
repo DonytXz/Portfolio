@@ -1,0 +1,5 @@
+.bg-img {    
+    background: url('../images/gdl.jpg') center center no-repeat;
+    background-size: cover;
+    position: relative;
+}
